@@ -1,0 +1,19 @@
+{
+  "author": "Kevin Bluer <kevin@bluer.com> (http://www.bluer.com)",
+  "name": "epam-api",
+  "description": "EPAM API",
+  "version": "1.0.0",
+  "homepage": "epam-api.herokuapp.com",
+  "repository": {
+    "url": ""
+  },
+  "main": "app.js",
+  "engines": {
+    "node": "~0.10.x"
+  },
+  "dependencies": {
+    "restify": "~2.8.1",
+    "mongoose": "~3.8.13"
+  },
+  "devDependencies": {}
+}
