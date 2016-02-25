@@ -8,6 +8,10 @@ var port = process.env.PORT || 3002;
 server.listen(port);
 
 server.get('/1/articles', function(req, res, next) {
+
+	res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+
     res.json([{ 
     	title: "Facebook's new 'Like' buttons are rolling out now - go 'wow' at someone",
     	summary: 'After announcing that Facebook users would soon be able to express a wider range of emotions on the platform through emoji, the company is now delivering on that promise by rolling it out to all users.',
